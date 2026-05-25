@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FFF7ED; /* Vibrant Peach Orange-50 background */
+  background-image: radial-gradient(#FED7AA 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+@keyframes float-slow-1 {
+  0%, 100% { transform: translateY(0) rotate(-1.5deg); }
+  50% { transform: translateY(-10px) rotate(1.5deg); }
+}
+
+@keyframes float-slow-2 {
+  0%, 100% { transform: translateY(0) rotate(2deg); }
+  50% { transform: translateY(-14px) rotate(-0.5deg); }
+}
+
+@keyframes float-slow-3 {
+  0%, 100% { transform: translateY(0) rotate(-2.5deg); }
+  50% { transform: translateY(-8px) rotate(-1.5deg); }
+}
+
+.animate-float-slow-1 {
+  animation: float-slow-1 9s ease-in-out infinite;
+}
+
+.animate-float-slow-2 {
+  animation: float-slow-2 11s ease-in-out infinite;
+}
+
+.animate-float-slow-3 {
+  animation: float-slow-3 7.5s ease-in-out infinite;
+}
+
+.sketchy-doodle-grid {
+  background-image: radial-gradient(rgba(244, 63, 94, 0.04) 2px, transparent 2px);
+  background-size: 32px 32px;
+}
+

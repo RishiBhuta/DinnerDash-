@@ -1,0 +1,6 @@
+{
+  "name": "What Should We Eat?",
+  "description": "A beautiful and interactive restaurant randomized chooser that helps you instantly decide where to eat with group mode, customizable weightings, history, and a high-fidelity selection spinner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
